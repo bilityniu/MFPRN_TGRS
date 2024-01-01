@@ -1,7 +1,7 @@
 # A Multitype Feature Perception and Refined Network for Spaceborne Infrared Ship Detection
 
 This repository contains the code (in PyTorch) for the paper: ([IEEE TGRS](http://https://ieeexplore.ieee.org/document/10352113))
-
+If you use this code, please cite our paper. Please hit the star at the top-right corner. Thanks!
 ## Introduction
 
 Spaceborne infrared ship detection holds immense research significance in both military and civilian domains. Nonetheless, the focus of research in this field remains primarily on optical and Synthetic Aperture Radar (SAR) images due to the confidentiality and limited accessibility of infrared data. The challenges in spaceborne ship detection arise from the long-distance capture and low signal-to-noise ratio of infrared images, which contribute to false alarm misclassifications. To handle this problem, this paper concentrates on enhancing information interaction during feature extraction to discern disparities between targets and backgrounds more effectively, and we propose a Multi-Type Feature Perception and Refined Network (MFPRN). Specifically, we propose a dual feature fusion scheme, which combines a Fast Fourier module used to obtain comprehensive receptive field and a lightweight MLP applied to capture the long-range feature dependencies. Besides, we adopt a Cascade Region Proposal Network to leverage high-quality region proposals for the prediction head. Through the extraction of rich features and refined candidate boxes, we successfully mitigate false alarms. Experimental results illustrate that our method significantly reduces false alarms for general detectors, culminating in state-of-the-art performance as demonstrated on the public ISDD baseline. 
