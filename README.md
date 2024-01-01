@@ -36,7 +36,7 @@ $ mkdir ISDD
 It is recommended to symlink the dataset root to `$data`.
 
 ```
-Boosting-R-CNN-Reweighting-R-CNN-Samples-by-RPN-s-Error-for-Underwater-Object-Detection
+ISDD
 ├── data
 │   ├── ISDD
 │   │   ├── train2017
