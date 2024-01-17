@@ -40,9 +40,9 @@ It is recommended to symlink the dataset root to `$data`.
 ISDD
 ├── data
 │   ├── ISDD
-│   │   ├── train2017
-│   │   ├── val2017
-│   │   ├── annotations
+│   │   ├── JPEGImages
+│   │   ├── ImgaeSets
+│   │   ├── Annotations
 ```
 
 
