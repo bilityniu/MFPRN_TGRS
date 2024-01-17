@@ -13,11 +13,11 @@ Spaceborne infrared ship detection holds immense research significance in both m
 
 ## Dependencies
 
-- Python==3.7.11
-- PyTorch==1.10.1
-- mmdetection==2.22.0
-- mmcv==1.4.0
-- numpy==1.21.2
+- Python == 3.7.11
+- PyTorch == 1.10.1
+- mmdetection == 2.22.0
+- mmcv == 1.4.0
+- numpy == 1.21.2
 
 ## Installation
 
@@ -40,9 +40,10 @@ It is recommended to symlink the dataset root to `$data`.
 ISDD
 ├── data
 │   ├── ISDD
-│   │   ├── JPEGImages
-│   │   ├── ImgaeSets
-│   │   ├── Annotations
+│   │   ├──VOC2007
+│   │   │   ├── JPEGImages
+│   │   │   ├── ImgaeSets
+│   │   │   ├── Annotations
 ```
 
 
